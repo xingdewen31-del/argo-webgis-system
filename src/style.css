@@ -1,0 +1,44 @@
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url('primeicons/primeicons.css');
+
+:root {
+    --animation-duration: 0.5s; /* 通过修改这个值控制全局速度 */
+}
+
+:root {
+    --primary-color: #fdfdfd;
+    --word-color: #2b2b2b;
+    --check-box: #c6b99e;
+}
+
+.p-button {
+    /*background-color: var(--primary-color) !important;*/
+
+}
+
+.p-select-option {
+    background-color: var(--primary-color) !important;
+    color: var(--word-color) !important;
+}
+
+.p-password {
+    background-color: var(--check-box) !important;
+}
+
+/*.p-select-list{*/
+/*  background-color: var(--primary-color) !important;*/
+/*}*/
+.p-select-dropdown {
+    background-color: var(--primary-color) !important;
+}
+
+.p-select {
+    background-color: var(--primary-color) !important;
+}
+
+/*.p-checkbox {*/
+/*  background-color: var(--primary-color) !important;*/
+/*}*/
+.p-checkbox-box {
+    background-color: var(--check-box) !important;
+}
